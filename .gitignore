@@ -17,3 +17,5 @@ mlruns/
 
 # OS
 .DS_Store
+# Allow DVC metadata files
+!data/**/*.dvc
