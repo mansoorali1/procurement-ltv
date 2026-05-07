@@ -1,0 +1,19 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data (DVC handles these)
+data/
+models/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+
+# OS
+.DS_Store
