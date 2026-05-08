@@ -4,41 +4,34 @@ numpy==1.26.4
 scipy==1.13.0
 
 # Database
-supabase==2.4.6
 python-dotenv==1.0.1
 sqlalchemy==2.0.30
-psycopg2-binary==2.9.9
 
 # ML
 scikit-learn==1.4.2
 xgboost==2.0.3
 lightgbm==4.3.0
-optuna==3.6.1
 
-# Experiment tracking & versioning
+# Experiment tracking
 mlflow==2.13.0
-dvc==3.51.2
-dvc-s3==3.2.0
 
-# EDA & Visualization
+# Visualization
 matplotlib==3.8.4
 seaborn==0.13.2
 plotly==5.22.0
-ydata-profiling==4.8.0
-missingno==0.5.2
 
 # Interpretation
 shap==0.45.1
-lime==0.2.0.1
 
 # Monitoring
-evidently==0.4.30
+evidently
 
 # Deployment
 streamlit==1.35.0
 
-# Validation
-pandera==0.19.3
+# Data
+fastparquet==2024.2.0
+pyarrow==16.0.0
 
 # Testing
 pytest==8.2.0
