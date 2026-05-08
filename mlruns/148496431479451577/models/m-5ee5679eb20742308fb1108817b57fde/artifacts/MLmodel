@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/Mansoor/Downloads/logistics regression/procurement-ltv/src/../mlruns/148496431479451577/models/m-5ee5679eb20742308fb1108817b57fde/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.11.3
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 2.0.3
+mlflow_version: 3.12.0
+model_id: m-5ee5679eb20742308fb1108817b57fde
+model_size_bytes: 5409745
+model_uuid: m-5ee5679eb20742308fb1108817b57fde
+prompts: null
+run_id: 058c8ad4e97e4f929d034ecbe4393620
+utc_time_created: '2026-05-08 04:49:32.452498'

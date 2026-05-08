@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/Mansoor/Downloads/logistics regression/procurement-ltv/src/../mlruns/615752846064675776/models/m-20878b46d07c4a8a8c428f3baca8aa9a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-20878b46d07c4a8a8c428f3baca8aa9a
+model_size_bytes: 3520
+model_uuid: m-20878b46d07c4a8a8c428f3baca8aa9a
+prompts: null
+run_id: cb663514dd8541ae950e8faf2794197d
+utc_time_created: '2026-05-08 04:14:25.238321'

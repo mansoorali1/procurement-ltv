@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Mansoor/Downloads/logistics regression/procurement-ltv/src/../mlruns/615752846064675776/models/m-539313cc9cb246b8bd10a8850f76e3da/artifacts
+creation_timestamp: 1778213756581
+experiment_id: '615752846064675776'
+last_updated_timestamp: 1778213766468
+model_id: m-539313cc9cb246b8bd10a8850f76e3da
+model_type: null
+name: model
+source_run_id: 59c2028ac6c44faf852c981e45c16d1d
+status: 2
+status_message: null

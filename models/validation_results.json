@@ -1,0 +1,41 @@
+{
+  "champion_model": "xgboost_tuned",
+  "train_metrics": {
+    "mae": 3.5347,
+    "rmse": 5.3829,
+    "r2": 0.6893,
+    "mape": 263.1129,
+    "dir_acc": 93.6571
+  },
+  "val_metrics": {
+    "mae": 4.6649,
+    "rmse": 8.0872,
+    "r2": 0.408,
+    "mape": 203.3787,
+    "dir_acc": 91.4876
+  },
+  "test_metrics": {
+    "mae": 4.5816,
+    "rmse": 7.4144,
+    "r2": 0.4328,
+    "mape": 162.1077,
+    "dir_acc": 91.673
+  },
+  "conformal_q_90": 9.839727556212381,
+  "late_detection": {
+    "precision": 0.4477,
+    "recall": 0.17,
+    "f1": 0.2464,
+    "accuracy": 0.9167,
+    "tp": 197,
+    "tn": 13069,
+    "fp": 243,
+    "fn": 962
+  },
+  "success_criteria": {
+    "mae_pass": true,
+    "rmse_pass": true,
+    "r2_pass": false,
+    "dir_acc_pass": true
+  }
+}

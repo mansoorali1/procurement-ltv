@@ -1,0 +1,65 @@
+{
+  "target_outlier_bounds": [
+    -100,
+    100
+  ],
+  "category_fill_value": "unknown",
+  "dim_global_medians": {
+    "product_weight_g": 700.0,
+    "product_length_cm": 25.0,
+    "product_height_cm": 13.0,
+    "product_width_cm": 20.0
+  },
+  "text_global_medians": {
+    "product_name_lenght": 52.0,
+    "product_description_lenght": 608.0,
+    "product_photos_qty": 2.0
+  },
+  "review_score_median": 5.0,
+  "outlier_caps": {
+    "total_price": [
+      11.99,
+      989.0
+    ],
+    "total_freight": [
+      7.39,
+      105.07
+    ],
+    "avg_price": [
+      10.99,
+      899.0
+    ],
+    "product_weight_g": [
+      75.0,
+      18250.0
+    ],
+    "product_length_cm": [
+      16.0,
+      91.08000000000175
+    ],
+    "product_height_cm": [
+      2.0,
+      65.0
+    ],
+    "product_width_cm": [
+      11.0,
+      62.0
+    ],
+    "total_payment_value": [
+      22.38,
+      1042.51
+    ],
+    "product_description_lenght": [
+      87.0,
+      3395.0
+    ],
+    "product_photos_qty": [
+      1.0,
+      8.0
+    ],
+    "product_name_lenght": [
+      21.0,
+      63.0
+    ]
+  }
+}

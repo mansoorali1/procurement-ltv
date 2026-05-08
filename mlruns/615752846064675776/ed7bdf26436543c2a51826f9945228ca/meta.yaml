@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Mansoor/Downloads/logistics regression/procurement-ltv/src/../mlruns/615752846064675776/ed7bdf26436543c2a51826f9945228ca/artifacts
+end_time: 1778213679231
+entry_point_name: ''
+experiment_id: '615752846064675776'
+lifecycle_stage: active
+run_id: ed7bdf26436543c2a51826f9945228ca
+run_name: ridge_regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778213673159
+status: 3
+tags: []
+user_id: Mansoor

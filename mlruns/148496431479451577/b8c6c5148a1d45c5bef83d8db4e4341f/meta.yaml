@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Mansoor/Downloads/logistics regression/procurement-ltv/src/../mlruns/148496431479451577/b8c6c5148a1d45c5bef83d8db4e4341f/artifacts
+end_time: 1778216606510
+entry_point_name: ''
+experiment_id: '148496431479451577'
+lifecycle_stage: active
+run_id: b8c6c5148a1d45c5bef83d8db4e4341f
+run_name: lightgbm_tuned
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778216542387
+status: 3
+tags: []
+user_id: Mansoor

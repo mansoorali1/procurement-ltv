@@ -5,17 +5,26 @@ __pycache__/
 .venv/
 venv/
 
-# Data (DVC handles these)
-data/
-models/
-
-# Notebooks checkpoints
+# Jupyter
 .ipynb_checkpoints/
-
-# MLflow
-mlruns/
 
 # OS
 .DS_Store
-# Allow DVC metadata files
-!data/**/*.dvc
+Thumbs.db
+
+# MLflow (keep mlruns for the app)
+# mlruns/  ← do NOT ignore this, app needs it
+
+# DVC internals only — keep actual data files
+.dvc/cache
+.dvc/tmp
+
+# Large interim files we don't need in deployment
+data/processed/master_df.parquet
+data/processed/splits/
+data/raw/
+
+# Keep these — app needs them
+# data/processed/featured/   ← do NOT ignore
+# data/processed/cleaned/    ← do NOT ignore
+# models/                    ← do NOT ignore
