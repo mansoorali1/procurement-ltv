@@ -7,8 +7,8 @@ on:
     branches: [main]
 
 env:
-  DOCKER_IMAGE: YOUR_DOCKERHUB_USERNAME/YOUR_DOCKERHUB_REPO
-  HF_SPACE: YOUR_HF_USERNAME/YOUR_HF_SPACE_NAME
+  DOCKER_IMAGE: mansoor23ali/procurement-ltv
+  HF_SPACE: mansoorsk/procurement-ltv
 
 jobs:
   # ── Job 1: Lint and Test ─────────────────────────────────────
